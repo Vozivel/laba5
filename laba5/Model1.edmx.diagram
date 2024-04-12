@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c57b734fc5d54a69853eb2bf60d517b3" Name="Diagram1">
+        <EntityTypeShape EntityType="labaModel.Employees" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Orders" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Orders_Scooters" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Payment_Method" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Posts" Width="1.5" PointX="1.5" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Providers" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Roles" Width="1.5" PointX="1.5" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Scooters" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Scooters_Types" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="labaModel.Storages" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="labaModel.FK__Employees__Post___48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Employees__Role___47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Orders__Employee__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Orders__Method_I__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Orders_Sc__Order__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Orders_Sc__Scoot__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Storages__Provid__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Scooters__Scoote__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="labaModel.FK__Storages__Scoote__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
